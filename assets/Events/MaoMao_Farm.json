@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "LogName": "毛毛农场事件（2心）",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "75160002/f MaoMao 500 MoMo 500/t 1800 2200": "none/72 15/farmer 72 15 2 MaoMao 70 16 1 MoMo 69 17 0/pause 500/playMusic MyCatMod_2Heart/speak MaoMao \"那个……你会不会哪一天不要我们？\"/speak MoMo \"毛毛以前换过好几个地方，所以有点不安。\"/speak MaoMao \"我只是有一点点害怕……如果有一天你不想要我们了，该怎么办？\"/playMusic none/message \"这里就是你们的家。只要你们愿意，就永远不会被赶走。\"/playMusic springtown/emote MaoMao 20/speak MaoMao \"呜喵！那我也会一直在这里！我会努力当一只很乖很乖的猫！\"/speak MoMo \"对我来说，有你和它的地方，就是家。\"/globalFade/message \"从这天起，毛毛和墨墨真正把这里当成了家。\"/end"
+      }
+    },
+    {
+      "LogName": "毛毛农场事件（8心·护身符出发）",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "75160082/H 75160008/i (O)MyCatMod_CourageCharm/t 600 2000": "none/64 14/farmer 66 15 3 MaoMao 64 15 1 MoMo 68 15 3/pause 600/playMusic MyCatMod_Adventure/emote MaoMao 32/speak MaoMao \"护身符做好了？！让我看看！\"/pause 400/message \"这是为你做的。\"/removeItem (O)MyCatMod_CourageCharm 1/emote MaoMao 20/speak MaoMao \"……好暖。\"/speak MaoMao \"带着它……就像你一直陪着我一样。\"/pause 500/faceDirection MoMo 2/speak MoMo \"准备好了吗。\"/faceDirection MaoMao 3/pause 300/emote MaoMao 8/speak MaoMao \"有一点点紧张……那个森林，不知道里面会怎么样。\"/speak MoMo \"走一步，算一步。护身符里有他的心意。\"/speak MoMo \"比任何魔法都管用。\"/pause 500/emote MaoMao 32/speak MaoMao \"好！那我去啦！\"/question mao82 \"你要对出发的毛毛说什么？#等你回来。#我相信你，加油！\"/fork mao82/end",
+        "mao82_0": "message \"等你回来，毛毛。\"/speak MaoMao \"嗯！很快就回来！\"/fork mao82_after",
+        "mao82_1": "message \"我相信你，加油！\"/emote MaoMao 20/speak MaoMao \"呜喵……有你说的话我肯定能过去！\"/fork mao82_after",
+        "mao82_after": "pause 400/speak MoMo \"我先去终点等你。\"/move MoMo -5 0 3/pause 600/emote MaoMao 32/speak MaoMao \"那我也走啦——！！\"/move MaoMao 6 0 1/pause 800/playMusic none/globalFade/completeQuest 75160080/addMail MyCatMod_CourageQuestDone/message \"毛毛的身影消失在农场东侧的路口。\n你站在原地望着，心里既担心，又莫名觉得——它一定可以的。\n\n次日，你发现信箱里多了一封信。\"/end"
+      }
+    }
+  ]
+}

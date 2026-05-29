@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "LogName": "毛毛山顶事件（10心）",
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "Entries": {
+        "75160010/f MaoMao 2500 MoMo 2500/t 1000 1900": "none/35 12/farmer 35 12 0 MaoMao 33 13 1 MoMo 37 13 3/pause 600/playMusic MyCatMod_10Heart/emote MaoMao 32/speak MaoMao \"呜喵！你来了！\"/move MaoMao 2 0 3/pause 300/speak MaoMao \"我们等你好久了！这里风好大，但是好好看！\"/speak MoMo \"今天叫你来，是有些话想亲口对你说。\"/pause 400/speak MoMo \"从你把毛毛带回家的那天起……到现在，已经过了好多个季节了。\"/speak MaoMao \"好多好多！春天、夏天、秋天、还有冬天，每一个都有你！\"/speak MoMo \"……毛毛说得对。\"/pause 500/emote MaoMao 20/speak MaoMao \"你知道吗，我以前从来不觉得自己会有一个家。\"/speak MaoMao \"那时候在车站的纸箱里，我每天想的只有——今天有没有东西吃。\"/pause 300/emote MaoMao 28/speak MaoMao \"现在……我每天早上醒来，都觉得心里暖暖的。因为你在，因为墨墨在。\"/pause 500/speak MoMo \"我走过很多地方，见过山，见过海。\"/speak MoMo \"但旅途再美，心里总有一块地方是空的。\"/pause 300/speak MoMo \"直到跟着毛毛来到这里，直到你把我们都留下来……\"/emote MoMo 20/speak MoMo \"我才知道，那块空着的地方，叫做'家'。\"/pause 700/playSound sparkle/emote MaoMao 32/speak MaoMao \"所以——！我们给你带来了一样东西！\"/speak MaoMao \"是星之果实！只有两颗心真正相连的地方才会长出来的！我和墨墨一起去魔法森林最深处找到的！\"/speak MoMo \"我们觉得，没有比它更合适的礼物了。\"/addItem 268 1/message \"你收到了一颗星之果实。\\n它散发着温柔的光，暖得像阳光，也像家。\"/pause 600/question fork10 \"你看着这颗果实，心里涌起一阵暖意，想对它们说……#我也很高兴认识你们。#谢谢你们信任我。#以后也要一直在一起！\"/fork fork10/end",
+        "fork10_0": "speak MaoMao \"我也是！认识你，是我做过最对的一件事！呜喵！\"/speak MoMo \"……嗯。\"/emote MoMo 20/speak MoMo \"我也这么觉得。\"/fork fork10_end",
+        "fork10_1": "speak MoMo \"是你先信任了我们。那扇为我们打开的门，对我来说，是最珍贵的礼物。\"/speak MaoMao \"呜——墨墨你在说什么！翻译一下就是——你，很，好！\"/speak MoMo \"……毛毛说得不算错。\"/emote MoMo 20/fork fork10_end",
+        "fork10_2": "speak MaoMao \"好耶！说定了！我会一直陪着你——直到宇宙灭亡！不，直到每颗星星都落下来！\"/speak MoMo \"……那很久。\"/speak MaoMao \"对！就要很久！永远！\"/pause 300/speak MoMo \"好，那我也说。\"/pause 400/speak MoMo \"我们会一直在这里。和你在一起，是我最好的旅途终点。\"/fork fork10_end",
+        "fork10_end": "pause 800/emote MaoMao 32/speak MaoMao \"还有还有！我宣布——这里是我们的第二个秘密基地！\"/speak MaoMao \"名字叫——'毛毛墨墨和朋友的山顶星之果实大本营纪念地'！\"/speak MoMo \"……太长了。\"/speak MaoMao \"那……'我们的山顶'？\"/speak MoMo \"好。就这个。\"/pause 500/speak MaoMao \"以后随时都可以来找我们哦！我会在这里追蝴蝶等你！\"/speak MoMo \"风景很好，适合发呆。也很适合三个人一起待着，什么都不说。\"/pause 1000/playMusic starDrop/pause 1500/globalFade/message \"你与毛毛和墨墨，在这片山顶上，迎来了一次最安静的告白。\\n从今以后，'我们的山顶'是你们三个共同的角落。\\n你们的故事，还在继续。\"/end"
+      }
+    }
+  ]
+}

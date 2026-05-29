@@ -1,0 +1,522 @@
+{
+  "Format": "2.4.0",
+  "Changes": [
+
+    {
+      "LogName": "注册自定义音乐",
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "MyCatMod_2Heart": {
+          "Id": "MyCatMod_2Heart",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/2Heart.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        },
+        "MyCatMod_4Heart": {
+          "Id": "MyCatMod_4Heart",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/4Heart.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        },
+        "MyCatMod_6Heart": {
+          "Id": "MyCatMod_6Heart",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/6Heart.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        },
+        "MyCatMod_8Heart": {
+          "Id": "MyCatMod_8Heart",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/8Heart.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        },
+        "MyCatMod_10Heart": {
+          "Id": "MyCatMod_10Heart",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/10Heart.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        },
+        "MyCatMod_Adopt": {
+          "Id": "MyCatMod_Adopt",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/Adopt.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        },
+        "MyCatMod_Adventure": {
+          "Id": "MyCatMod_Adventure",
+          "FilePaths": [ "{{AbsoluteFilePath: assets/Music/Adventure.ogg}}" ],
+          "Category": "Music",
+          "StreamedVorbis": true,
+          "Looped": true
+        }
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/MaoMao",
+      "FromFile": "assets/Characters/MaoMao.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/MoMo",
+      "FromFile": "assets/Characters/MoMo.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/MaoMao",
+      "FromFile": "assets/Portraits/MaoMao.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/MoMo",
+      "FromFile": "assets/Portraits/MoMo.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_SecretBase",
+      "FromFile": "assets/Maps/SecretBase.tmx"
+    },
+
+    {
+      "LogName": "毛毛墨墨基础数据（含收养前Home）",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "MaoMao": {
+          "DisplayName": "毛毛",
+          "BirthSeason": "Summer",
+          "BirthDay": 1,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "Language": "Default",
+          "CanBeRomanced": false,
+          "CanSocialize": "TRUE",
+          "CanReceiveGifts": "TRUE",
+          "CanGreetNearbyCharacters": "TRUE",
+          "Size": { "X": 32, "Y": 32 },
+          "MugshotSourceRect": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+          "CustomFields": {
+        "poohnhi.PoohCore/WideCharacter": "true"
+    },
+
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "BusStop",
+              "Tile": { "X": 19, "Y": 14 },
+              "Direction": 2
+            }
+          ]
+        },
+        "MoMo": {
+          "DisplayName": "墨墨",
+          "BirthSeason": "Winter",
+          "BirthDay": 28,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Positive",
+          "Language": "Default",
+          "CanBeRomanced": false,
+          "CanSocialize": "TRUE",
+          "CanReceiveGifts": "TRUE",
+          "CanGreetNearbyCharacters": "TRUE",
+          "Size": { "X": 32, "Y": 32 },
+          "MugshotSourceRect": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+          "CustomFields": {
+            "poohnhi.PoohCore/WideCharacter": "true"
+          },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Mountain",
+              "Tile": { "X": 24, "Y": 6 },
+              "Direction": 2
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "LogName": "收养后将毛毛墨墨Home改到农场",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Fields": {
+        "MaoMao": {
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Farm",
+              "Tile": { "X": 64, "Y": 14 },
+              "Direction": 2
+            }
+          ]
+        },
+        "MoMo": {
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Farm",
+              "Tile": { "X": 62, "Y": 14 },
+              "Direction": 2
+            }
+          ]
+        }
+      },
+      "When": {
+        "Hearts:MaoMao": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "MaoMao": "我最喜欢鱼干！/145 146 150/这个也很好吃，谢谢你喵~/128 130 194/呜……这个味道怪怪的。//这个我真的不太喜欢……//送我的？谢谢喵。//",
+        "MoMo": "带点魔力的东西，我很喜欢。/72 74 422/这些礼物让我感觉很放松，谢谢你。/64 70 336/嗯……这不是很合我的口味。//下次还是不要送这个给我比较好。//给我的礼物？我会好好收下的。//"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_SecretBase": {
+          "DisplayName": "秘密基地",
+          "DefaultArrivalTile": { "X": 10, "Y": 15 },
+          "MinimumWinterUpgradeLevel": 0,
+          "ExcludeFromNpcPathfinding": true
+        }
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/MyCatMod/Objects",
+      "FromFile": "assets/Objects/Items.png"
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "MyCatMod_CourageCharm": {
+          "Name": "MyCatMod_CourageCharm",
+          "DisplayName": "勇气护符",
+          "Description": "毛毛通过考验的见证。带着它，每个清晨都会多一点勇气。",
+          "Type": "Basic",
+          "Category": -1,
+          "Price": 0,
+          "Texture": "Mods/MyCatMod/Objects",
+          "SpriteIndex": 0
+        },
+        "MyCatMod_LuckyPendant": {
+          "Name": "MyCatMod_LuckyPendant",
+          "DisplayName": "好运吊坠",
+          "Description": "墨墨用星光碎片亲手做的吊坠。旅行者带着它，据说路途会顺些。",
+          "Type": "Basic",
+          "Category": -1,
+          "Price": 0,
+          "Texture": "Mods/MyCatMod/Objects",
+          "SpriteIndex": 1
+        },
+        "MyCatMod_JasmineTea": {
+          "Name": "MyCatMod_JasmineTea",
+          "DisplayName": "茉莉花茶",
+          "Description": "毛毛用秘密森林里的茉莉花亲手泡的花茶。带着阳光和花香的味道。喝一口，心情就会变好。",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "Edibility": 50,
+          "Texture": "Mods/MyCatMod/Objects",
+          "SpriteIndex": 2,
+          "Buffs": [
+            {
+              "Id": "MyCatMod_JasmineTea_Buff",
+              "Duration": 420000,
+              "IconTexture": "Mods/MyCatMod/Objects",
+              "SpriteIndex": 2,
+              "GlowColor": "200, 230, 150, 80",
+              "IsDebuff": false,
+              "CustomAttributes": {
+                "Luck": 2,
+                "Speed": 1,
+                "Foraging": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "MaoMaoCourageCharm": "766 50 152 5 709 5 768 1/Field/(O)MyCatMod_CourageCharm/false/null"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {
+        "75160080": "Basic/勇气护符/巫师希望你为毛毛制作一个护身符，好让它带着你的心意去通过森林的考验。/收集指定材料（史莱姆黏液×50、海草×5、硬木×5、太阳精华×1），并在工作台上制作勇气护符。/null/0/0/0/true"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "MyCatMod_CourageQuestDone": "亲爱的农夫，%farm%\n\n毛毛已经通过了森林的考验。\n\n它非常勇敢。\n\n请来我的塔楼，让我带你看看它走过的路。\n\n——巫师"
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Data/Dialogue/MaoMao",
+      "FromFile": "assets/Dialogue/MaoMao.json",
+      "When": {
+        "Hearts:MaoMao": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Dialogue/MoMo",
+      "FromFile": "assets/Dialogue/MoMo.json",
+      "When": {
+        "Hearts:MaoMao": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Dialogue/MaoMao",
+      "FromFile": "assets/Dialogue/MaoMao_PreAdopt.json",
+      "When": {
+        "Hearts:MaoMao": "0, 1"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Dialogue/MoMo",
+      "FromFile": "assets/Dialogue/MoMo_PreAdopt.json",
+      "When": {
+        "Hearts:MaoMao": "0, 1"
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Data/Schedules/MaoMao",
+      "FromFile": "assets/Schedules/MaoMao.json",
+      "When": {
+        "HasFlag:CurrentPlayer |contains= MyCatMod_MaoMaoAdopted": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Schedules/MoMo",
+      "FromFile": "assets/Schedules/MoMo.json",
+      "When": {
+        "HasFlag:CurrentPlayer |contains= MyCatMod_MaoMaoAdopted": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Schedules/MaoMao",
+      "FromFile": "assets/Schedules/MaoMao_PreAdopt.json",
+      "When": {
+        "HasFlag:CurrentPlayer |contains= MyCatMod_MaoMaoAdopted": "false"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Schedules/MoMo",
+      "FromFile": "assets/Schedules/MoMo_PreAdopt.json",
+      "When": {
+        "HasFlag:CurrentPlayer |contains= MyCatMod_MaoMaoAdopted": "false"
+      }
+    },
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao_BusStop.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MoMo_Farm.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao_Farm.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao_Forest.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao_Woods.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao_Mountain.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MoMo_Railroad.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/MaoMao_WizardHouse.json"
+    },
+
+    {
+      "LogName": "毛毛墨墨出席彩蛋节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 27 52 2/MoMo 28 52 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 27 52 2/MoMo 28 52 2",
+        "MaoMao": "呜喵！好多彩蛋！我想吃！",
+        "MoMo": "……节日的气氛不错。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席花舞节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 10 42 2/MoMo 12 42 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 10 42 2/MoMo 12 42 2",
+        "MaoMao": "大家都在跳舞！我也想转圈圈！",
+        "MoMo": "……看着他们跳舞，心情也变好了。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席野餐节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 48 18 2/MoMo 49 18 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 48 18 2/MoMo 49 18 2",
+        "MaoMao": "锅里是什么？好香！我也想放点小鱼干进去！",
+        "MoMo": "……海风很舒服。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席水母节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 25 36 2/MoMo 26 36 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 25 36 2/MoMo 26 36 2",
+        "MaoMao": "呜喵……水母会发光！好漂亮！",
+        "MoMo": "……像海里的星星。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席丰收节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 60 65 2/MoMo 61 65 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 60 65 2/MoMo 61 65 2",
+        "MaoMao": "好多好吃的！我要吃遍所有摊位！",
+        "MoMo": "……秋天的集市，让人安心。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席鬼节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 28 22 2/MoMo 29 22 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 28 22 2/MoMo 29 22 2",
+        "MaoMao": "呜……好可怕！但是有糖吃对不对？！",
+        "MoMo": "黑猫在万圣节很受欢迎。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席冰雕节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 61 16 2/MoMo 62 16 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 61 16 2/MoMo 62 16 2",
+        "MaoMao": "冰冰的！我的爪子好冷但是好好玩！",
+        "MoMo": "冰的形状很美。"
+      }
+    },
+    {
+      "LogName": "毛毛墨墨出席冬星节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Set-Up_additionalCharacters": "MaoMao 29 61 2/MoMo 30 61 2",
+        "Set-Up_additionalCharacters_y1": "MaoMao 29 61 2/MoMo 30 61 2",
+        "MaoMao": "星光节快乐！你是我最特别的礼物！",
+        "MoMo": "有你们在的冬天，不冷。"
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "AddWarps": [ "80 90 Custom_SecretBase 10 15" ],
+      "When": {
+        "Hearts:MaoMao": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SecretBase",
+      "AddWarps": [ "10 19 Forest 80 91" ]
+    },
+    {
+      "LogName": "巴士站纸箱（毛毛收养前）",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapTiles": [
+        {
+          "Id": "MaoMaoBox_Left",
+          "TileSheet": "spring_outdoorsTileSheet",
+          "Layer": "Buildings",
+          "Position": { "X": 7, "Y": 7 },
+          "SetTileIndex": 1931
+        },
+        {
+          "Id": "MaoMaoBox_Right",
+          "TileSheet": "spring_outdoorsTileSheet",
+          "Layer": "Buildings",
+          "Position": { "X": 8, "Y": 7 },
+          "SetTileIndex": 1932
+        }
+      ],
+      "When": {
+        "Hearts:MaoMao": "0, 1"
+      }
+    }
+
+  ]
+}

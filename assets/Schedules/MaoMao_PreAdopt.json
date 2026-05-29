@@ -1,0 +1,35 @@
+{
+  "default": "600 BusStop 8 8 2/1000 BusStop 10 9 1/1400 BusStop 8 8 0/1900 BusStop 7 6 2",
+
+  "spring_Mon": "600 BusStop 8 8 2/1000 BusStop 10 9 1/1400 BusStop 8 8 0/1900 BusStop 7 6 2",
+  "spring_Tue": "700 BusStop 8 8 0/1000 Mountain 32 30 0/1300 Mountain 30 20 1/1600 Mountain 35 11 0/1900 BusStop 8 8 2",
+  "spring_Wed": "700 BusStop 8 8 0/1000 Town 22 68 2/1300 Town 50 55 1/1600 BusStop 8 8 2",
+  "spring_Thu": "600 BusStop 8 8 0/1100 Mountain 28 30 0/1500 Mountain 22 20 1/1800 BusStop 8 8 2",
+  "spring_Fri": "800 BusStop 8 8 0/1000 Town 52 80 2/1300 Town 22 65 2/1600 BusStop 8 8 2",
+  "spring_Sat": "700 BusStop 8 8 0/900 Mountain 22 18 0/1300 Mountain 32 30 0/1700 Mountain 15 22 1/2000 BusStop 8 8 2",
+  "spring_Sun": "600 BusStop 8 8 2/1100 BusStop 11 8 1/1500 BusStop 8 8 0/1800 BusStop 7 6 2",
+
+  "summer_Mon": "700 BusStop 8 8 2/900 BusStop 10 9 1/1100 BusStop 8 8 0/1600 BusStop 10 9 1/1900 BusStop 7 6 2",
+  "summer_Tue": "700 BusStop 8 8 0/1000 Town 52 80 2/1300 Town 50 83 0/1600 Mountain 32 30 0/1900 BusStop 8 8 2",
+  "summer_Wed": "600 BusStop 8 8 0/900 Town 22 68 2/1200 Town 50 55 1/1500 BusStop 8 8 2",
+  "summer_Thu": "600 BusStop 8 8 2/1700 BusStop 10 9 0/1900 BusStop 7 6 2",
+  "summer_Fri": "700 BusStop 8 8 0/1000 Mountain 32 30 0/1300 Mountain 22 18 0/1600 Mountain 30 20 1/1900 BusStop 8 8 2",
+  "summer_Sat": "700 BusStop 8 8 0/900 Town 52 80 2/1200 Town 22 65 2/1500 Town 50 55 1/1800 BusStop 8 8 2",
+  "summer_Sun": "600 BusStop 8 8 2/1000 BusStop 11 8 1/1400 BusStop 8 8 0/1800 BusStop 7 6 2",
+
+  "fall_Mon": "700 BusStop 8 8 0/1000 Mountain 32 30 0/1300 Mountain 22 18 0/1600 Mountain 28 30 0/1900 BusStop 8 8 2",
+  "fall_Tue": "700 BusStop 8 8 0/1000 Town 22 68 2/1300 Town 35 55 0/1600 BusStop 8 8 2",
+  "fall_Wed": "600 BusStop 8 8 0/900 Mountain 28 30 0/1300 Mountain 22 18 0/1500 Mountain 32 25 0/1800 BusStop 8 8 2",
+  "fall_Thu": "700 BusStop 8 8 0/1000 Town 22 65 2/1300 Mountain 32 30 0/1700 BusStop 8 8 2",
+  "fall_Fri": "600 BusStop 8 8 2/1100 BusStop 10 9 1/1500 BusStop 8 8 0/1900 BusStop 7 6 2",
+  "fall_Sat": "600 BusStop 8 8 0/900 Mountain 22 18 0/1200 Mountain 32 30 0/1500 Town 22 65 2/1900 BusStop 8 8 2",
+  "fall_Sun": "700 BusStop 8 8 0/1100 BusStop 11 8 1/1400 Mountain 32 30 0/1700 BusStop 8 8 2",
+
+  "winter_Mon": "600 BusStop 8 8 2/1400 BusStop 10 9 0/1700 BusStop 8 8 2",
+  "winter_Tue": "800 BusStop 8 8 0/1100 Mountain 32 30 0/1400 BusStop 8 8 2",
+  "winter_Wed": "600 BusStop 8 8 2/1200 BusStop 10 9 0/1600 BusStop 8 8 2",
+  "winter_Thu": "900 BusStop 8 8 0/1100 Mountain 32 30 0/1400 BusStop 8 8 2",
+  "winter_Fri": "600 BusStop 8 8 2/1300 BusStop 10 9 0/1700 BusStop 8 8 2",
+  "winter_Sat": "900 BusStop 8 8 0/1100 Town 50 55 0/1400 BusStop 8 8 2",
+  "winter_Sun": "600 BusStop 8 8 2/1500 BusStop 10 9 0/1800 BusStop 8 8 2"
+}

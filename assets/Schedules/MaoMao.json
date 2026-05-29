@@ -1,0 +1,48 @@
+{
+  "default": "800 Farm 64 14 2/850 Town 66 56 2/1700 Farm 64 14 2",
+
+  "spring_Mon": "800 Farm 64 14 2/850 Town 44 57 2/1000 Town 66 56 2/1200 Town 82 14 2/1400 Town 48 20 2/1630 Town 66 56 2/1800 Farm 64 14 2",
+  "spring_Tue": "800 Farm 64 14 2/840 Forest 50 60 2/1030 Forest 50 120 2/1230 Forest 15 100 2/1430 Mountain 32 24 0/1800 Farm 64 14 2",
+  "spring_Wed": "800 Farm 64 14 2/840 Forest 50 105 2/1000 Forest 20 100 2/1200 Forest 50 60 2/1400 Forest 9 7 2/1600 Forest 15 78 2/1830 Forest 24 60 2/2000 Farm 64 14 2",
+  "spring_Thu": "800 Farm 64 14 0/850 Town 44 70 2/1100 Town 90 16 2/1300 Town 30 57 2/1500 Town 56 50 2/1700 Town 20 62 2/1830 Farm 64 14 2",
+  "spring_Fri": "800 Farm 64 14 2/840 Forest 6 89 2/1130 Forest 54 46 2/1400 Forest 36 48 2/1600 Forest 24 60 2/1800 Farm 64 14 2",
+  "spring_Sat": "800 Farm 64 14 2/850 Town 44 57 2/1000 Town 66 56 2/1200 Town 44 22 2/1400 Town 30 57 2/1700 Farm 64 14 2",
+  "spring_Sun": "800 Farm 64 14 2/850 Town 44 57 2/1100 Town 44 62 2/1400 Town 66 56 2/1700 Farm 64 14 2",
+
+  "summer_Mon": "700 Farm 64 14 2/800 Town 44 57 2/1030 Beach 28 25 2/1300 Beach 35 38 2/1730 Farm 64 14 2",
+  "summer_Tue": "700 Farm 64 14 2/800 Forest 15 25 2/1000 Forest 20 95 2/1150 Beach 55 15 2/1600 Beach 28 25 2/1900 Farm 64 14 2",
+  "summer_Wed": "800 Farm 64 14 2/840 Town 20 60 2/1000 Town 50 73 2/1130 Town 58 61 2/1300 Town 58 90 2/1630 Town 44 35 2/1900 Farm 64 14 2",
+  "summer_Thu": "700 Farm 64 14 2/800 Forest 50 60 2/1030 Mountain 32 24 0/1400 Mountain 22 18 1/1730 Farm 64 14 2",
+  "summer_Fri": "700 Farm 64 14 2/830 Beach 28 25 2/1300 Beach 55 15 2/1600 Town 66 56 2/1830 Farm 64 14 2",
+  "summer_Sat": "700 Farm 64 14 2/800 Town 44 57 2/1000 Town 66 56 2/1230 Beach 35 38 2/1600 Town 66 56 2/1830 Farm 64 14 2",
+  "summer_Sun": "800 Farm 64 14 2/850 Town 44 62 2/1200 Town 66 56 2/1500 Farm 64 14 2",
+
+  "fall_Mon": "800 Farm 64 14 2/850 Town 66 56 2/1300 Town 44 57 2/1600 Town 20 72 2/1800 Farm 64 14 2",
+  "fall_Tue": "800 Farm 64 14 2/840 Forest 50 105 2/1100 Forest 50 120 2/1300 Forest 50 60 2/1700 Farm 64 14 2",
+  "fall_Wed": "800 Farm 64 14 2/840 Forest 54 46 2/1100 Mountain 32 24 0/1400 Mountain 22 18 1/1730 Farm 64 14 2",
+  "fall_Thu": "800 Farm 64 14 2/850 Town 44 57 2/1100 Town 66 56 2/1400 Town 30 57 2/1700 Farm 64 14 2",
+  "fall_Fri": "800 Farm 64 14 2/840 Forest 15 78 2/1100 Forest 36 48 2/1400 Forest 24 60 2/1700 Farm 64 14 2",
+  "fall_Sat": "800 Farm 64 14 2/850 Town 44 57 2/1100 Town 66 56 2/1300 Town 44 22 2/1600 Farm 64 14 2",
+  "fall_Sun": "900 Farm 64 14 2/1010 Mountain 32 24 0/1200 Mountain 40 10 0/1600 Farm 64 14 2",
+
+  "winter_Mon": "900 Farm 64 14 2/1000 Town 66 56 2/1200 Town 44 57 2/1500 Farm 64 14 2",
+  "winter_Tue": "900 Farm 64 14 2/1010 Mountain 32 24 0/1300 Farm 64 14 2",
+  "winter_Wed": "1000 Farm 64 14 2/1030 BusStop 8 7 1/1200 Farm 64 14 2",
+  "winter_Thu": "900 Farm 64 14 2/1000 Town 44 57 2/1200 Town 66 56 2/1530 Farm 64 14 2",
+  "winter_Fri": "900 Farm 64 14 2/1000 Forest 50 60 2/1200 Forest 24 60 2/1500 Farm 64 14 2",
+  "winter_Sat": "800 Farm 64 14 2/850 Town 66 56 2/1200 Town 44 22 2/1500 Town 30 57 2/1730 Farm 64 14 2",
+  "winter_Sun": "1000 Farm 64 14 2",
+
+  "spring_13": "1000 Town 27 52 2",
+  "spring_24": "900 Forest 10 42 2/1400 Forest 9 21 2",
+
+  "summer_11": "1200 Beach 48 18 2",
+  "summer_28": "2200 Beach 25 36 2",
+
+  "fall_16": "1000 Town 60 65 2",
+  "fall_27": "2100 Town 28 22 2",
+
+  "winter_8":  "900 Mountain 61 16 2",
+  "winter_15": "900 Farm 64 14 2/1000 Town 66 56 2/1900 Beach 9 13 2",
+  "winter_25": "1000 Town 29 61 2"
+}

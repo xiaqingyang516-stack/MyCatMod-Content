@@ -1,0 +1,26 @@
+{
+  "Changes": [
+    {
+      "LogName": "毛毛森林事件（4心·秘密基地）",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "75160004/f MaoMao 1000 MoMo 1000/t 1000 1800": "none/30 45/farmer 30 45 2 MaoMao 28 45 1 MoMo 32 45 3/pause 800/playMusic MyCatMod_4Heart/speak MaoMao \"呜喵！你来了你来了！快跟上我！\"/move MaoMao -4 0 1/move MoMo -2 0 1/move farmer -3 0 1/pause 600/warp farmer 80 90/warp MaoMao 79 90/warp MoMo 81 90/viewport 80 90 true/pause 800/playSound discovery/emote MaoMao 32/speak MaoMao \"呜喵——！这里！这里！是不是很好看？！\"/speak MoMo \"这里是我们在森林里找到的地方。四季的风都在这里打过旋。\"/message \"这里……像是被时间忘记的地方。\"/speak MaoMao \"对呀对呀！有花、有树、有好多小虫子，还有最舒服的树荫！\"/speak MoMo \"还有一棵特别大的树。毛毛一直说，它想在树上有个小房子。\"/emote MaoMao 20/speak MaoMao \"嘿嘿……如果有一天你累了，就可以来这里睡午觉，我给你当枕头。\"/speak MoMo \"我们商量过了。\"/speak MoMo \"想把这里当成——只属于我们三个人的秘密基地。\"/emote farmer 32/message \"你们愿意把这么重要的地方给我吗？\"/pause 400/speak MaoMao \"不是给你，是和你一起分享！\"/speak MoMo \"对。'家'的一部分，可以有很多个角落。这里，就是我们为你准备的角落。\"/pause 600/question fork_4heart \"毛毛和墨墨期待地看着你。你要怎么回答？#那我会好好守护这里的。#今后一起在这里偷懒吧。\"/fork fork_4heart/end",
+        "fork_4heart_0": "emote MoMo 20/speak MoMo \"那就拜托你了。我们也会帮忙看着风和树。\"/speak MaoMao \"呜喵！谁敢来捣乱，我就对着他'喵喵连击'！\"/fork fork_4heart_end",
+        "fork_4heart_1": "emote MaoMao 32/speak MaoMao \"好耶！这里就是官方指定午睡地点！\"/speak MoMo \"……听起来也不错。偶尔偷懒，对心灵有好处。\"/fork fork_4heart_end",
+        "fork_4heart_end": "pause 600/speak MoMo \"以后如果你哪天觉得累了，就来这里。\"/speak MoMo \"我们会在树下等你。\"/speak MaoMao \"记得叫上我一起玩！\"/globalFade/message \"你与毛毛和墨墨一起，拥有了一处只属于你们的'秘密基地'。从今以后，这片森林多了一点家的味道。\"/end"
+      }
+    },
+    {
+      "LogName": "毛毛森林事件（8心·巫师相遇）",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "75160008/f MaoMao 2000 MoMo 2000/t 900 2000": "none/18 80/farmer 18 80 2 MaoMao 17 80 1 MoMo 19 80 3 Wizard -100 -100 2/pause 800/playMusic MyCatMod_8Heart/warp Wizard 15 78/faceDirection Wizard 1/speak Wizard \"啊……又见面了，小猫们。\"/speak Wizard \"尤其是你，黑色的那一只。我在魔法森林的尽头见过你的身影。\"/speak MoMo \"……你还记得。\"/speak MaoMao \"呜喵？巫师爷爷，你认识墨墨吗？\"/speak Wizard \"它的灵魂本就不寻常。\"/speak Wizard \"而你——\"/faceDirection Wizard 0/speak Wizard \"橘色的小家伙，你的身上也开始沾染上了魔力的味道。\"/emote MaoMao 28/speak MaoMao \"诶？是因为我总是粘着墨墨吗？\"/speak MoMo \"也许是因为你很用力地在生活着。\"/pause 600/speak Wizard \"我想给你们一个选择。\"/speak Wizard \"如果你们愿意，可以跟我学习一些简单的魔法。\"/emote MaoMao 32/speak MaoMao \"学魔法？！我想学我想学！我要学会用魔法炸鱼！\"/speak MoMo \"……我更想学的是，怎样保护重要的东西。\"/question mao8_choice \"你怎么看待巫师的提议？#当然去学啊，我会支持你们。#魔法听起来有点危险……\"/fork mao8_choice/end",
+        "mao8_choice_0": "message \"当然去学啊。我会支持你们的。\"/speak Wizard \"呵……勇敢的回答。\"/fork mao8_after_choice",
+        "mao8_choice_1": "message \"魔法听起来有点危险……你们确定吗？\"/speak MoMo \"正因为有危险，所以要学会控制。\"/speak MaoMao \"而且有你在，我们就不怕啦。\"/fork mao8_after_choice",
+        "mao8_after_choice": "pause 500/speak Wizard \"学习魔法之前，需要一个小小的考验。\"/speak Wizard \"毛毛，将独自穿过一片会考验勇气的森林。\"/emote MaoMao 8/speak MaoMao \"独、独自……？那墨墨和你呢？\"/speak MoMo \"我会在终点等你。\"/speak MoMo \"如果你害怕，就想想我们，还有他。\"/emote farmer 20/speak Wizard \"而你——\"/speak Wizard \"需要为它准备一个护身符。这将是它勇气的见证。\"/message \"巫师希望你为毛毛制作一个护身符。\\n需要材料：史莱姆黏液×50、海草×5、硬木×5、太阳精华×1。\"/pause 800/addQuest 75160080/speak MaoMao \"护身符……听起来好厉害！\"/speak MoMo \"我们会等你准备好那枚护身符，再一起去面对前面的路。\"/speak Wizard \"去吧。把你的心意，编进那枚护身符里。\"/globalFade/message \"你接受了巫师的请求，决定为毛毛亲手制作一枚'勇气护符'。\"/end"
+      }
+    }
+  ]
+}

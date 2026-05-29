@@ -1,0 +1,48 @@
+{
+  "default": "800 Farm 62 14 2/1000 BusStop 8 7 1/1200 Town 68 55 2/1700 BusStop 8 7 3/1900 Farm 62 14 2",
+
+  "spring_Mon": "800 Farm 62 14 2/900 BusStop 8 7 1/1000 Town 68 55 2/1200 Town 80 14 2/1400 Town 46 22 2/1630 Town 68 55 2/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+  "spring_Tue": "800 Farm 62 14 2/900 Forest 48 60 2/1130 Forest 48 120 2/1300 Forest 17 100 2/1500 Mountain 34 24 0/1730 BusStop 8 7 3/2000 Farm 62 14 2",
+  "spring_Wed": "800 Farm 62 14 2/900 Forest 48 105 2/1000 Forest 18 100 2/1200 Forest 48 60 2/1400 Forest 11 7 2/1600 Forest 13 78 2/1800 Forest 22 60 2/2000 Farm 62 14 2",
+  "spring_Thu": "800 Farm 62 14 0/900 Town 46 70 2/1100 Town 88 16 2/1300 Town 32 57 2/1500 Town 58 50 2/1700 Town 22 62 2/1900 BusStop 8 7 3/2000 Farm 62 14 2",
+  "spring_Fri": "800 Farm 62 14 2/900 Forest 8 89 2/1200 Forest 52 46 2/1430 Forest 38 48 2/1600 Forest 22 60 2/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+  "spring_Sat": "800 Farm 62 14 2/900 Town 46 57 2/1000 Town 68 55 2/1200 Town 42 22 2/1400 Town 32 57 2/1700 BusStop 8 7 3/1800 Farm 62 14 2",
+  "spring_Sun": "800 Farm 62 14 2/900 Town 46 57 2/1100 Town 42 62 2/1400 Town 68 55 2/1700 BusStop 8 7 3/1900 Farm 62 14 2",
+
+  "summer_Mon": "700 Farm 62 14 2/900 Town 46 57 2/1100 Town 60 95 2/1300 Beach 26 27 2/1500 Beach 33 38 2/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+  "summer_Tue": "700 Farm 62 14 2/800 Forest 13 25 2/1000 Forest 18 95 2/1300 Beach 53 15 2/1600 Beach 26 27 2/1900 Farm 62 14 2",
+  "summer_Wed": "800 Farm 62 14 2/900 Town 22 60 2/1000 Town 52 73 2/1130 Town 60 61 2/1300 Town 60 90 2/1700 Town 42 35 2/1900 BusStop 8 7 3/2000 Farm 62 14 2",
+  "summer_Thu": "700 Farm 62 14 2/900 Forest 48 60 2/1100 Mountain 34 24 0/1400 Mountain 24 18 1/1700 BusStop 8 7 3/1900 Farm 62 14 2",
+  "summer_Fri": "800 Farm 62 14 2/1000 Beach 26 27 2/1300 Beach 53 15 2/1600 Town 68 55 2/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+  "summer_Sat": "700 Farm 62 14 2/900 Town 46 57 2/1100 Town 68 55 2/1300 Beach 33 38 2/1600 Town 68 55 2/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+  "summer_Sun": "800 Farm 62 14 2/1000 Town 42 62 2/1200 Town 68 55 2/1500 BusStop 8 7 3/1700 Farm 62 14 2",
+
+  "fall_Mon": "800 Farm 62 14 2/900 BusStop 8 7 1/1000 Town 68 55 2/1300 Town 46 57 2/1600 Town 22 72 2/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+  "fall_Tue": "800 Farm 62 14 2/900 Forest 48 105 2/1100 Forest 48 120 2/1300 Forest 48 60 2/1600 Forest 22 60 2/1900 Farm 62 14 2",
+  "fall_Wed": "800 Farm 62 14 2/900 Forest 52 46 2/1100 Mountain 34 24 0/1400 Mountain 24 18 1/1700 BusStop 8 7 3/1900 Farm 62 14 2",
+  "fall_Thu": "800 Farm 62 14 2/900 Town 46 57 2/1100 Town 68 55 2/1400 Town 32 57 2/1700 BusStop 8 7 3/1900 Farm 62 14 2",
+  "fall_Fri": "800 Farm 62 14 2/900 Forest 13 78 2/1100 Forest 38 48 2/1300 Forest 22 60 2/1600 BusStop 8 7 3/1800 Farm 62 14 2",
+  "fall_Sat": "800 Farm 62 14 2/900 Town 46 57 2/1100 Town 68 55 2/1300 Town 42 22 2/1600 BusStop 8 7 3/1800 Farm 62 14 2",
+  "fall_Sun": "900 Farm 62 14 2/1100 BusStop 8 7 1/1200 Mountain 34 24 0/1500 Mountain 42 10 0/1800 BusStop 8 7 3/1900 Farm 62 14 2",
+
+  "winter_Mon": "800 Farm 62 14 2/1000 Town 68 55 2/1200 Town 46 57 2/1500 BusStop 8 7 3/1600 Farm 62 14 2",
+  "winter_Tue": "900 Farm 62 14 2/1100 Mountain 34 24 0/1400 BusStop 8 7 3/1600 Farm 62 14 2",
+  "winter_Wed": "900 Farm 62 14 2/1100 BusStop 8 7 1/1300 Farm 62 14 2",
+  "winter_Thu": "900 Farm 62 14 2/1100 Town 46 57 2/1300 Town 68 55 2/1600 BusStop 8 7 3/1700 Farm 62 14 2",
+  "winter_Fri": "900 Farm 62 14 2/1100 Forest 48 60 2/1300 Forest 22 60 2/1600 BusStop 8 7 3/1700 Farm 62 14 2",
+  "winter_Sat": "800 Farm 62 14 2/1000 Town 68 55 2/1200 Town 42 22 2/1500 Town 32 57 2/1700 BusStop 8 7 3/1800 Farm 62 14 2",
+  "winter_Sun": "900 Farm 62 14 2/1200 BusStop 8 7 1/1400 Farm 62 14 2",
+
+  "spring_13": "1000 Town 28 52 2",
+  "spring_24": "900 Forest 12 42 2/1400 Forest 10 21 2",
+
+  "summer_11": "1200 Beach 49 18 2",
+  "summer_28": "2200 Beach 26 36 2",
+
+  "fall_16": "1000 Town 61 65 2",
+  "fall_27": "2100 Town 29 22 2",
+
+  "winter_8":  "900 Mountain 62 16 2",
+  "winter_15": "900 Farm 62 14 2/1000 Town 68 55 2/1900 Beach 10 12 2",
+  "winter_25": "1000 Town 30 61 2"
+}

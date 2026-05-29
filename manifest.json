@@ -1,0 +1,18 @@
+{
+  "Name": "MyCatMod Content",
+  "Author": "Lyrae",
+  "Version": "1.0.0",
+  "Description": "为星露谷添加毛毛和墨墨两只可爱的猫咪（内容包）。",
+  "UniqueID": "Lyrae.MyCatMod.Content",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.30.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Lyrae.MyCatMod",
+      "IsRequired": true
+    }
+  ],
+  "UpdateKeys": []
+}

@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "LogName": "墨墨铁路事件（6心）",
+      "Action": "EditData",
+      "Target": "Data/Events/Railroad",
+      "Entries": {
+        "75160062/f MoMo 1500/t 2000 2400": "none/18 35/farmer 18 35 0 MoMo 20 32 0/pause 800/playMusic MyCatMod_6Heart/speak MoMo \"……没想到你也在这里。\"/pause 400/speak MoMo \"这个地方，夜里特别安静。\"/speak MoMo \"铁路会让我想起以前……在各个地方流浪的日子。\"/pause 500/speak MoMo \"我去过很多地方。山，海，沙漠，大城市……\"/speak MoMo \"见过春天的樱花，也见过秋天最后一片不肯落下的叶子。\"/pause 400/speak MoMo \"可是每到一个地方，住了一段时间，心里总有一种说不清楚的空。\"/speak MoMo \"所以我就继续走。以为只要走得够远，就能把那种空填满。\"/pause 600/speak MoMo \"……直到那天，我在一个小镇的垃圾桶旁，看见了毛毛。\"/pause 300/speak MoMo \"它很小，毛乱乱的，抖着耳朵和几只大老鼠对峙。\"/speak MoMo \"明明害怕得要命，却还是弓着背不肯退。\"/emote MoMo 20/speak MoMo \"我也不知道为什么……就跳出去把那些老鼠赶跑了。\"/pause 400/speak MoMo \"毛毛当时吓跑了，以为我是来赶它的。\"/speak MoMo \"它那时候附近的猫都在驱赶它，不让它在自己地盘上找吃的。\"/speak MoMo \"它以为每只靠近的猫，都是敌人。\"/pause 500/speak MoMo \"所以我就……跟着它走了。\"/speak MoMo \"不近，不远。就是跟着。\"/speak MoMo \"也说不清楚是为什么。只是觉得，这只小猫，不能一直一个人待着。\"/pause 600/speak MoMo \"它一路走到了这里。然后你把它带回了家。\"/emote MoMo 20/speak MoMo \"那天我躲在农场外面的树后面，看着那扇门关上……\"/speak MoMo \"我第一次觉得，心里那个空的地方，好像没那么空了。\"/pause 500/speak MoMo \"然后你出来，问我要不要进去。\"/pause 400/speak MoMo \"……经过这么久，我才终于弄明白。\"/speak MoMo \"那种空，不是靠走路能填满的。\"/emote MoMo 20/speak MoMo \"是要有个地方，有人，在等你回去。\"/pause 600/question momo6 \"你静静地听完了墨墨的故事，想说……#谢谢你一直陪着毛毛。#你早就可以进来的。#你的故事……很美。\"/fork momo6/end",
+        "momo6_0": "speak MoMo \"是你给了我们一个可以停下来的地方。\"/speak MoMo \"应该是我谢谢你才对。\"/emote MoMo 20/fork momo6_end",
+        "momo6_1": "emote MoMo 20/speak MoMo \"……我知道。\"/speak MoMo \"只是当时，还没准备好承认，我也想留下来。\"/fork momo6_end",
+        "momo6_2": "speak MoMo \"旅途里遇到的风景很美。\"/speak MoMo \"但比起那些，我更喜欢现在。\"/emote MoMo 20/fork momo6_end",
+        "momo6_end": "pause 600/speak MoMo \"好了，你也进去睡吧。外面冷。\"/speak MoMo \"……我也回去了。\"/pause 800/globalFade/message \"在铁路旁的这个夜晚，你第一次真正了解了墨墨。\\n它选择了留下，不只是为了毛毛。\\n也是为了这里，和你。\"/end"
+      }
+    }
+  ]
+}

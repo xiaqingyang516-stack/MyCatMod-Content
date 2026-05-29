@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "LogName": "墨墨收养事件（农场）",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "75160011/H 75160001/t 600 1000": "none/64 12/farmer 64 16 0 MaoMao 66 16 1 Linus 64 0 2 MoMo 65 0 2/playMusic spring1/pause 800/warp Linus 64 8/warp MoMo 65 8/faceDirection Linus 2/faceDirection MoMo 2/move Linus 0 5 2/move MoMo 0 5 2/pause 800/speak Linus \"早啊。打扰你了……有件事想请你帮个忙。\"/speak Linus \"这只猫，我叫它墨墨。它在后山一带游荡了很久，我一直留着吃的给它，但……\"/faceDirection MoMo 3/speak Linus \"我真的没有多余的地方了。\"/pause 400/faceDirection MaoMao 1/emote MaoMao 16/pause 300/faceDirection MoMo 1/pause 400/speak MaoMao \"……喵？！\"/emote MaoMao 32/speak MoMo \"……喵。\"/pause 500/speak Linus \"咦，它们好像认识。这倒是……\"/speak Linus \"不管怎样，我想问问你——能不能让墨墨也留在这里？\"/speak Linus \"它不会添太多麻烦的。只是……需要一个落脚的地方。\"/pause 500/question momo_adopt \"墨墨平静地看着你，眼神里有一种说不清楚的东西——也许是期待，也许只是冷静的观察。#留下来吧，这里有毛毛，也有我。#我先和它相处看看。\"/fork momo_adopt/end",
+        "momo_adopt_0": "message \"留下来吧。这里有毛毛，也有我。\"/emote MoMo 20/speak MoMo \"……喵。\"/emote MaoMao 32/speak MaoMao \"喵喵！喵喵喵！\"/speak Linus \"……太好了。谢谢你，真的。\"/fork momo_adopt_end",
+        "momo_adopt_1": "message \"我先和它相处看看，好吗？\"/speak MoMo \"……喵。\"/speak MaoMao \"喵！\"/speak Linus \"它答应了。那就这样吧。\"/fork momo_adopt_end",
+        "momo_adopt_end": "pause 600/globalFade/message \"你收留了墨墨。\n你不知道，这只沉默的黑猫，将会给你们的生活带来多少温柔。\"/friendship MoMo 250/end"
+      }
+    }
+  ]
+}

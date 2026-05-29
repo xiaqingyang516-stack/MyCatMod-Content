@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        "75160001/t 600 2000/f MaoMao 250": "none/11 7/farmer 14 7 3 MaoMao 8 7 0/playMusic MyCatMod_Adopt/pause 600/faceDirection MaoMao 2/speak MaoMao \"……喵。\"/speak MaoMao \"你……你又来啦。\"/speak MaoMao \"这个纸箱小小的，风会从缝里钻进来……有点凉，不过蜷成一团就好多了。\"/pause 500/faceDirection farmer 3/speak MaoMao \"有时候也会有人给我吃的……但后来就没再来了。\"/speak MaoMao \"我不会怪他们啦……只是会偷偷想，下一个停下的人，会不会多停留一会儿。\"/pause 800/speak MaoMao \"……你今天站得有点近。\"/speak MaoMao \"你身上的味道……暖暖的，像晒干稻草，又像刚出炉的面包。\"/speak MaoMao \"……嗯。有点想蹭。\"/emote MaoMao 8/speak MaoMao \"……啊，对不起，我不是故意说出来的。\"/question null \"毛毛把下巴搁在纸箱边，琉璃绿色的眼睛软软的，又有点不好意思。#跟我回家吧。#走吧，带你去个暖和的地方。\"/emote MaoMao 32/speak MaoMao \"……真的可以吗？\"/speak MaoMao \"我现在有点脏，也不会抓老鼠……但是我以后一定会把自己舔干净，也会逗你开心的！\"/pause 300/emote MaoMao 20/speak MaoMao \"……那说好了哦？不要再丢下我了。\"/pause 800/speak MaoMao \"那……我会好好跟着你的！\"/playSound cat/pause 400/playSound cat/pause 300/playMusic none/globalFade/message \"你轻轻抱起毛毛。\n它把脸埋进你的臂弯，呼噜声小小的，像一团终于敢靠着你的小火炉。\n纸箱还留在公交车站旁；寒风还会来，但今晚——它不再拂过那团橙色的毛绒小球了。\"/friendship MaoMao 250/addMailReceived MyCatMod_MaoMaoAdopted/end"
+      }
+    }
+  ]
+}

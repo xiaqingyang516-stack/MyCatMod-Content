@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "LogName": "毛毛巫师塔事件（8心后续·勇气考验结果）",
+      "Action": "EditData",
+      "Target": "Data/Events/WizardHouse",
+      "Entries": {
+        "75160083/H 75160082/mail MyCatMod_CourageQuestDone/t 600 2000": "none/7 19/farmer 7 22 0 MaoMao 5 18 1 MoMo 9 18 3 Wizard 7 16 2/pause 600/playMusic MyCatMod_8Heart/speak Wizard \"你来了。\"/speak Wizard \"毛毛通过了。\"/pause 400/emote MaoMao 32/speak MaoMao \"嘿嘿！！我做到了！一个猫走过去的！！\"/pause 300/speak MoMo \"……它走出来的那一刻，我……\"/emote MoMo 20/speak MoMo \"……嗯。\"/pause 500/speak Wizard \"让我用水晶球，带你看看它走过的路。\"/pause 800/playSound secret1/pause 500/speak Wizard \"第一重考验：黑暗。整片森林的光全熄灭了。\"/emote MaoMao 8/speak MaoMao \"我一边走一边喊你的名字……没人回应。\"/speak MaoMao \"然后我摸了摸护身符，想到——这是他做给我的，他希望我过去。\"/speak MaoMao \"脚就……走动了。\"/pause 500/speak Wizard \"第二重：幻象。森林让它看见了曾经的恐惧。\"/emote MaoMao 28/speak MaoMao \"我看见了以前的自己，和那些大老鼠。那种什么都没有的感觉。\"/speak MaoMao \"但幻象里墨墨也在。就站在旁边，跟那天一样。\"/speak MoMo \"……我在你的幻象里？\"/speak MaoMao \"嗯！什么都没说，就是在。所以我没有跑。\"/pause 500/speak Wizard \"第三重：选择。森林放了一颗果实——吃下后可以成为强大的独行者，但要忘记所有羁绊。\"/emote MaoMao 12/speak MaoMao \"我没有吃。不需要那种强大。我只想回来，跟你们在一起。\"/pause 800/playSound sparkle/speak Wizard \"……它通过了。\"/speak Wizard \"这枚护身符，已被森林认可。带着它吧。毛毛的勇气，会在每一个清晨陪着你。\"/addItem (O)MyCatMod_CourageCharm 1/pause 400/speak MoMo \"等消息传来，我也想到了一件事。\"/speak MoMo \"旅途里带的星光碎片，原本只是留着看的。昨晚我把它们做成了这个。\"/addItem (O)MyCatMod_LuckyPendant 1/speak MoMo \"好运吊坠。旅行者带着它，据说路途顺些。\"/speak MoMo \"但给你，比留给我自己更合适。\"/pause 400/emote MaoMao 32/speak MaoMao \"两样宝贝都给你啦！因为你是我们最重要的人！！\"/question mao83_choice \"你想对他们说什么？#谢谢你们，毛毛，墨墨。#你们太厉害了！\"/fork mao83_choice/end",
+        "mao83_choice_0": "speak MaoMao \"才不是我们！是因为有你嘛！呜喵！！\"/speak MoMo \"……嗯。谢谢你，也一直在。\"/fork mao83_end",
+        "mao83_choice_1": "speak MaoMao \"对吧！我一点都不害怕！（才怪）\"/speak MoMo \"……哭了两次。\"/speak MaoMao \"墨墨！！！\"/fork mao83_end",
+        "mao83_end": "pause 600/playMusic starDrop/globalFade/message \"你拿着那两样东西，和毛毛、墨墨一起走出了法师塔。\n从今天起，这两只学会了魔法的小猫，会用它们自己的方式，守护你的每一天。\"/end"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "default": "700 Mountain 18 18 2/1200 Mountain 32 30 0/1700 Mountain 18 18 2",
+
+  "spring_Mon": "700 Mountain 18 18 0/1000 Mountain 32 30 0/1300 Mountain 22 18 1/1800 Mountain 18 18 2",
+  "spring_Tue": "600 Mountain 18 18 0/900 Forest 25 65 2/1300 Forest 15 78 0/1700 Mountain 18 18 2",
+  "spring_Wed": "700 Mountain 18 18 0/1000 Railroad 15 48 2/1400 Railroad 18 45 1/1800 Mountain 18 18 2",
+  "spring_Thu": "600 Mountain 18 18 2/1000 Forest 25 65 2/1300 Mountain 22 18 0/1800 Mountain 18 18 2",
+  "spring_Fri": "700 Mountain 18 18 0/1000 Forest 48 105 2/1400 Forest 25 65 1/1800 Mountain 18 18 2",
+  "spring_Sat": "600 Mountain 18 18 0/1000 Railroad 15 48 2/1300 Mountain 32 30 0/1700 Mountain 18 18 2",
+  "spring_Sun": "800 Mountain 18 18 0/1100 Mountain 40 10 0/1500 Mountain 22 18 1/1900 Mountain 18 18 2",
+
+  "summer_Mon": "600 Mountain 18 18 0/900 Mountain 32 30 0/1200 Mountain 22 18 1/1700 Mountain 18 18 2",
+  "summer_Tue": "600 Mountain 18 18 0/900 Forest 25 65 2/1200 Forest 15 78 0/1600 Mountain 18 18 2",
+  "summer_Wed": "700 Mountain 18 18 0/1000 Forest 48 105 2/1300 Forest 25 65 1/1700 Mountain 18 18 2",
+  "summer_Thu": "600 Mountain 18 18 2/900 Railroad 15 48 2/1300 Mountain 22 18 0/1800 Mountain 18 18 2",
+  "summer_Fri": "700 Mountain 18 18 0/1000 Forest 48 105 2/1400 Forest 25 65 1/1800 Mountain 18 18 2",
+  "summer_Sat": "700 Mountain 18 18 0/1000 Mountain 32 30 0/1300 Railroad 15 48 2/1700 Mountain 18 18 2",
+  "summer_Sun": "800 Mountain 18 18 2/1100 Mountain 40 10 0/1500 Mountain 22 18 1/1900 Mountain 18 18 2",
+
+  "fall_Mon": "700 Mountain 18 18 0/1000 Mountain 32 30 0/1400 Mountain 22 18 1/1900 Mountain 18 18 2",
+  "fall_Tue": "700 Mountain 18 18 0/1000 Forest 25 65 2/1400 Forest 15 78 0/1800 Mountain 18 18 2",
+  "fall_Wed": "600 Mountain 18 18 0/900 Railroad 15 48 2/1200 Railroad 18 45 1/1700 Mountain 18 18 2",
+  "fall_Thu": "600 Mountain 18 18 2/1000 Mountain 32 30 0/1400 Forest 25 65 2/1800 Mountain 18 18 2",
+  "fall_Fri": "700 Mountain 18 18 0/1000 Forest 48 105 2/1400 Forest 25 65 1/1900 Mountain 18 18 2",
+  "fall_Sat": "700 Mountain 18 18 0/1000 Mountain 22 18 1/1300 Railroad 15 48 2/1700 Mountain 18 18 2",
+  "fall_Sun": "900 Mountain 18 18 2/1200 Mountain 40 10 0/1600 Mountain 22 18 1/2000 Mountain 18 18 2",
+
+  "winter_Mon": "700 Mountain 18 18 2/1200 Mountain 32 30 0/1600 Mountain 18 18 2",
+  "winter_Tue": "800 Mountain 18 18 0/1100 Forest 25 65 2/1500 Mountain 18 18 2",
+  "winter_Wed": "700 Mountain 18 18 2/1300 Mountain 22 18 0/1700 Mountain 18 18 2",
+  "winter_Thu": "900 Mountain 18 18 0/1200 Mountain 32 30 0/1600 Mountain 18 18 2",
+  "winter_Fri": "700 Mountain 18 18 0/1100 Forest 48 105 2/1500 Mountain 18 18 2",
+  "winter_Sat": "800 Mountain 18 18 2/1200 Mountain 22 18 0/1600 Mountain 18 18 2",
+  "winter_Sun": "900 Mountain 18 18 2/1400 Mountain 40 10 0/1800 Mountain 18 18 2"
+}

@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "LogName": "秘密森林茉莉花茶事件",
+      "Action": "EditData",
+      "Target": "Data/Events/Woods",
+      "Entries": {
+        "75160020/f MaoMao 500 MoMo 500/t 600 1800": "none/15 13/farmer 15 15 0 MaoMao 13 12 1 MoMo 17 12 3/pause 600/playMusic nature_ambient/emote MaoMao 32/speak MaoMao \"呜喵！你也来秘密森林了！\"/speak MaoMao \"你知道吗？这里有好多好多茉莉花！\"/move MaoMao 1 0 1/pause 300/speak MaoMao \"我之前偷偷来这里采了好多花，想给你做一样东西！\"/speak MoMo \"……它为了采花，被蜜蜂追了三次。\"/emote MaoMao 28/speak MaoMao \"那、那是意外！蜜蜂太凶了！\"/pause 400/emote MaoMao 20/speak MaoMao \"但是！我成功了！我用这里的茉莉花泡了花茶！\"/speak MaoMao \"第一次泡的时候太苦了……第二次又太淡……第三次才刚刚好！\"/speak MoMo \"我帮它试喝了前两次。\"/speak MaoMao \"墨墨没有表情变化，我都不知道它好不好喝……\"/speak MoMo \"……第一次确实很苦。\"/pause 500/speak MaoMao \"给你！这是毛毛牌茉莉花茶！喝了会开心的！\"/addItem (O)MyCatMod_JasmineTea 3/playSound reward/emote MaoMao 32/pause 400/speak MoMo \"这片森林的茉莉花一年四季都会开。\"/speak MoMo \"也许是因为有什么特别的东西守护着这里。\"/pause 300/question tea_choice \"你接过温热的花茶，想说……#谢谢你，毛毛！很好喝！#下次我们一起来采花吧。\"/fork tea_choice/end",
+        "tea_choice_0": "emote MaoMao 32/speak MaoMao \"真的吗？！嘿嘿，那我以后每个季节都给你泡！\"/speak MoMo \"……我负责试喝。\"/fork tea_end",
+        "tea_choice_1": "emote MaoMao 32/speak MaoMao \"好耶！约好了！下次一起来！不过你要帮我挡蜜蜂！\"/speak MoMo \"……我来挡就好。\"/fork tea_end",
+        "tea_end": "pause 500/globalFade/message \"你收到了毛毛亲手泡的茉莉花茶。\\n茶香里带着森林和阳光的味道，还有一只橘猫满满的心意。\"/end"
+      }
+    }
+  ]
+}

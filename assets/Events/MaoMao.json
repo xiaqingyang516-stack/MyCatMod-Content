@@ -1,0 +1,18 @@
+{
+  "Changes": [
+    {
+      "LogName": "毛毛镇上事件（6心）",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "75160006/f MaoMao 1500/t 2000 2400": "none/50 60/farmer 50 60 0 MaoMao 52 60 3 MoMo 46 62 1/playMusic MyCatMod_6Heart/pause 800/move MaoMao 1 0 1/playSound trashcan/pause 200/playSound mouseTrap/emote MaoMao 8/speak MaoMao \"呜——！！\"/move MaoMao -2 0 1/emote MaoMao 28/pause 400/message \"毛毛，你还好吗？\"/speak MaoMao \"刚、刚才那只老鼠好大一只……我才没有被吓到！只是……只是没准备好！\"/question mao6_choice \"你要怎么回应毛毛？#你不是猫吗，怎么还怕老鼠？#没事，我在这儿。\"/fork mao6_choice/end",
+        "mao6_choice_0": "emote MaoMao 12/speak MaoMao \"我、我才不怕呢！我只是……不太喜欢它们的牙齿。\"/fork mao6_after_choice",
+        "mao6_choice_1": "emote MaoMao 20/speak MaoMao \"呜……你不要笑我就好……\"/fork mao6_after_choice",
+        "mao6_after_choice": "pause 400/move MoMo 3 -1 1/faceDirection MoMo 2/faceDirection farmer 1/faceDirection MaoMao 3/speak MoMo \"其实，这不是第一次了。\"/speak MoMo \"在你来这里之前，毛毛经常在垃圾桶里找吃的。\"/speak MoMo \"那时候，有几只大老鼠想抢他的东西。\"/speak MoMo \"我把它们全赶跑了……但毛毛太害怕，以为我也是来赶他的。\"/emote MaoMao 28/speak MaoMao \"那、那只出现在阴影里的黑影……原来是你？\"/speak MoMo \"是啊。从那天起，我一直跟在他后面。\"/speak MoMo \"因为我觉得，这个小家伙不能再一个猫待着了。\"/pause 500/emote MaoMao 20/speak MaoMao \"我一直以为……你那时候也是要把我赶走的。\"/speak MaoMao \"后来才发现，你总是在我最害怕的时候出现。\"/speak MaoMao \"谢谢你，墨墨……也谢谢你，把我带回了家。\"/question mao6_player \"你看着他们，要说些什么？#谢谢你照顾毛毛，墨墨。#毛毛受了很多苦……\"/fork mao6_player/end",
+        "mao6_player_0": "emote MoMo 20/speak MoMo \"我只是做我想做的事。现在有你在，我也可以放心偷懒一点了。\"/fork mao6_end",
+        "mao6_player_1": "emote MaoMao 28/speak MaoMao \"呜……你这样说，我反而有点想哭了。\"/speak MoMo \"所以现在开始，就由我们一起守着他吧。\"/fork mao6_end",
+        "mao6_end": "pause 600/playMusic none/globalFade/message \"在镇上的这个夜晚，你第一次听完了毛毛和墨墨之间的秘密。你们之间的羁绊，又紧了一些。\"/end"
+      }
+    }
+  ]
+}
