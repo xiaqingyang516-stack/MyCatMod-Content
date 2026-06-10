@@ -218,22 +218,46 @@
         "MyCatMod_CourageCharm": {
           "Name": "MyCatMod_CourageCharm",
           "DisplayName": "勇气护符",
-          "Description": "毛毛通过考验的见证。带着它，每个清晨都会多一点勇气。",
-          "Type": "Basic",
-          "Category": -1,
+          "Description": "毛毛通过考验的见证。散发着温暖的橙金色光芒。\n\n装备效果：防御+2，攻击+2。",
+          "Type": "Ring",
+          "Category": -96,
           "Price": 0,
           "Texture": "Mods/MyCatMod/Objects",
-          "SpriteIndex": 0
+          "SpriteIndex": 0,
+          "Buffs": [
+            {
+              "Id": "MyCatMod_CourageCharm_Buff",
+              "Duration": -2,
+              "IsDebuff": false,
+              "GlowColor": "255 180 50",
+              "CustomAttributes": {
+                "Defense": 2,
+                "Attack": 2
+              }
+            }
+          ]
         },
         "MyCatMod_LuckyPendant": {
           "Name": "MyCatMod_LuckyPendant",
           "DisplayName": "好运吊坠",
-          "Description": "墨墨用星光碎片亲手做的吊坠。旅行者带着它，据说路途会顺些。",
-          "Type": "Basic",
-          "Category": -1,
+          "Description": "墨墨用星光碎片亲手做的吊坠。闪烁着淡淡的星光蓝色。\n\n装备效果：运气+2，速度+1。",
+          "Type": "Ring",
+          "Category": -96,
           "Price": 0,
           "Texture": "Mods/MyCatMod/Objects",
-          "SpriteIndex": 1
+          "SpriteIndex": 1,
+          "Buffs": [
+            {
+              "Id": "MyCatMod_LuckyPendant_Buff",
+              "Duration": -2,
+              "IsDebuff": false,
+              "GlowColor": "100 160 255",
+              "CustomAttributes": {
+                "LuckLevel": 2,
+                "Speed": 1
+              }
+            }
+          ]
         },
         "MyCatMod_JasmineTea": {
           "Name": "MyCatMod_JasmineTea",
